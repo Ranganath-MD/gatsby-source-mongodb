@@ -21,7 +21,8 @@ https://gatsby-mongodb.netlify.app/
 * gatsby plugin - https://www.gatsbyjs.org/packages/gatsby-source-mongodb/
 
 
-
+Note: Replace User and Password in a mongodb connection string 
+mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@developeracc-xzfvx.mongodb.net
 
 
 
