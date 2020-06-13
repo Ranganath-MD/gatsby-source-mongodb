@@ -9,12 +9,12 @@
 </h1>
 
 
-🎯<h1 style="color: rebeccapurple">gatsby-source-mongodb</h1>
+# 🎯 gatsby-source-mongodb
 
 #### Source plugin for pulling data into Gatsby from MongoDB collections.
 
 ## Source
-=============================
+
 * gatsby plugin - https://www.gatsbyjs.org/packages/gatsby-source-mongodb/
 
 
