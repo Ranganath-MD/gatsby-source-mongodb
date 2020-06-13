@@ -1,3 +1,4 @@
+require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: `Gatsby MongoDB Source`,
@@ -11,7 +12,7 @@ module.exports = {
       options: {
         dbName: `node-crud`,
         collection: `books`,
-        connectionString: `mongodb+srv://ranganathmd:uOgKDhu9ZAhmOrnv@developeracc-xzfvx.mongodb.net`,
+        connectionString: `mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@developeracc-xzfvx.mongodb.net`,
       },
       auth: {
         user: `ranganathmd`,
